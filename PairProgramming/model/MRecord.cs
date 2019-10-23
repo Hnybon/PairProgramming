@@ -11,6 +11,11 @@ namespace PairProgramming.model
         private int _yearOPub;
         private string _publisher;
 
+        public MRecord()
+        {
+            
+        }
+
         public MRecord(string id, string artist, string title, string duration, int yearOPub, string publisher)
         {
             Id = id;
